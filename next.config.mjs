@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  assetPrefix: '/H24-Distributori-Langellotti/',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -21,7 +22,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  output: 'export' // <-- Aggiungi questa riga per generare file statici
+  output: 'export' // Assicurati di avere questa riga per l'esportazione statica
 }
 
 mergeConfig(nextConfig, userConfig)
@@ -30,7 +31,6 @@ function mergeConfig(nextConfig, userConfig) {
   if (!userConfig) {
     return
   }
-
   for (const key in userConfig) {
     if (
       typeof nextConfig[key] === 'object' &&
@@ -47,3 +47,4 @@ function mergeConfig(nextConfig, userConfig) {
 }
 
 export default nextConfig
+
