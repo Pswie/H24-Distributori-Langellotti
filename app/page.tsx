@@ -438,7 +438,7 @@ export default function Home() {
           <div className="flex items-center space-x-8">
             <Link
               href="/"
-              className="font-bold text-xl bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text"
+              className="font-bold text-xl bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text py-1"
             >
               H24 LANGELLOTTI
             </Link>
@@ -542,7 +542,7 @@ export default function Home() {
               />
             </div>
             <div className="space-y-6">
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text py-2">
                 H24 Langellotti
               </h1>
               <p className="text-lg text-gray-600">
