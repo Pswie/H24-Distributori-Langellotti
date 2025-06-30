@@ -29,9 +29,9 @@ type Product = {
 
 // Sample data
 const vendingMachines: VendingMachine[] = [
-  { id: 1, name: "Distributore Bevande", image: "/placeholder.svg?height=600&width=300&text=Distributore+Bevande" },
-  { id: 2, name: "Distributore Snack", image: "/placeholder.svg?height=600&width=300&text=Distributore+Snack" },
-  { id: 3, name: "Distributore Pasti", image: "/placeholder.svg?height=600&width=300&text=Distributore+Pasti" },
+  { id: 1, name: "Distributore Bevande", image: "/images/vending-drinks.jpg" },
+  { id: 2, name: "Distributore Snack", image: "/images/vending-snacks.jpg" },
+  { id: 3, name: "Distributore Pasti", image: "/images/vending-meals.jpg" },
 ]
 
 const products: Product[] = [
@@ -41,7 +41,7 @@ const products: Product[] = [
     name: "Acqua Naturale",
     description: "Acqua minerale naturale in bottiglia da 500ml.",
     price: 1.0,
-    image: "/placeholder.svg?height=400&width=400&text=Acqua+Naturale",
+    image: "/images/products/water.jpg",
     machineIds: [1],
   },
   {
@@ -49,7 +49,7 @@ const products: Product[] = [
     name: "Coca Cola",
     description: "Bevanda gassata in lattina da 330ml.",
     price: 1.5,
-    image: "/placeholder.svg?height=400&width=400&text=Coca+Cola",
+    image: "/images/products/cola.jpg",
     machineIds: [1],
   },
   {
@@ -57,7 +57,7 @@ const products: Product[] = [
     name: "Acqua Frizzante",
     description: "Acqua minerale frizzante in bottiglia da 500ml.",
     price: 1.0,
-    image: "/placeholder.svg?height=400&width=400&text=Acqua+Frizzante",
+    image: "/images/products/sparkling-water.jpg",
     machineIds: [1],
   },
   {
@@ -65,7 +65,7 @@ const products: Product[] = [
     name: "Succo d'Arancia",
     description: "Succo d'arancia 100% naturale, 330ml.",
     price: 2.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/orange-juice.jpg",
     machineIds: [1],
   },
   {
@@ -73,7 +73,7 @@ const products: Product[] = [
     name: "Tè al Limone",
     description: "Tè freddo al limone, 330ml.",
     price: 1.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/iced-tea.jpg",
     machineIds: [1],
   },
   {
@@ -81,7 +81,7 @@ const products: Product[] = [
     name: "Energy Drink",
     description: "Energy drink per una carica di energia, 250ml.",
     price: 2.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/energy-drink.jpg",
     machineIds: [1],
   },
   {
@@ -89,7 +89,7 @@ const products: Product[] = [
     name: "Tè Verde",
     description: "Tè verde freddo, 330ml.",
     price: 1.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/iced-tea.jpg",
     machineIds: [1],
   },
   {
@@ -97,7 +97,7 @@ const products: Product[] = [
     name: "Succo di Mela",
     description: "Succo di mela 100% naturale, 330ml.",
     price: 2.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/orange-juice.jpg",
     machineIds: [1],
   },
   {
@@ -105,7 +105,7 @@ const products: Product[] = [
     name: "Limonata",
     description: "Limonata fresca, 330ml.",
     price: 1.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/iced-tea.jpg",
     machineIds: [1],
   },
   {
@@ -113,7 +113,7 @@ const products: Product[] = [
     name: "Acqua Tonica",
     description: "Acqua tonica, 330ml.",
     price: 1.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/sparkling-water.jpg",
     machineIds: [1],
   },
 
@@ -123,7 +123,7 @@ const products: Product[] = [
     name: "Patatine",
     description: "Patatine croccanti al sale, confezione da 50g.",
     price: 1.2,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/chips.jpg",
     machineIds: [2],
   },
   {
@@ -131,7 +131,7 @@ const products: Product[] = [
     name: "Cioccolato",
     description: "Barretta di cioccolato al latte da 100g.",
     price: 1.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/chocolate.jpg",
     machineIds: [2],
   },
   {
@@ -139,7 +139,7 @@ const products: Product[] = [
     name: "Biscotti",
     description: "Biscotti di frolla, 80g.",
     price: 1.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/cookies.jpg",
     machineIds: [2],
   },
   {
@@ -147,7 +147,7 @@ const products: Product[] = [
     name: "Crackers",
     description: "Crackers salati, 75g.",
     price: 1.2,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/crackers.jpg",
     machineIds: [2],
   },
   {
@@ -155,7 +155,7 @@ const products: Product[] = [
     name: "Barretta Energetica",
     description: "Barretta energetica con cereali e cioccolato, 60g.",
     price: 2.2,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/chocolate.jpg",
     machineIds: [2],
   },
   {
@@ -163,7 +163,7 @@ const products: Product[] = [
     name: "Mandorle",
     description: "Mandorle tostate e salate, 40g.",
     price: 2.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/chips.jpg",
     machineIds: [2],
   },
   {
@@ -171,7 +171,7 @@ const products: Product[] = [
     name: "Gomme da Masticare",
     description: "Gomme da masticare alla menta, confezione da 10.",
     price: 1.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/cookies.jpg",
     machineIds: [2],
   },
   {
@@ -179,7 +179,7 @@ const products: Product[] = [
     name: "Caramelle",
     description: "Caramelle assortite, 50g.",
     price: 1.2,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/cookies.jpg",
     machineIds: [2],
   },
   {
@@ -187,7 +187,7 @@ const products: Product[] = [
     name: "Cioccolato Fondente",
     description: "Barretta di cioccolato fondente 70%, 80g.",
     price: 2.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/chocolate.jpg",
     machineIds: [2],
   },
   {
@@ -195,7 +195,7 @@ const products: Product[] = [
     name: "Snack di Frutta Secca",
     description: "Mix di frutta secca, 60g.",
     price: 2.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/chips.jpg",
     machineIds: [2],
   },
 
@@ -205,7 +205,7 @@ const products: Product[] = [
     name: "Sandwich",
     description: "Sandwich fresco con prosciutto e formaggio.",
     price: 3.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/sandwich.jpg",
     machineIds: [3],
   },
   {
@@ -213,7 +213,7 @@ const products: Product[] = [
     name: "Insalata",
     description: "Insalata mista fresca con condimento.",
     price: 4.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/salad.jpg",
     machineIds: [3],
   },
   {
@@ -221,7 +221,7 @@ const products: Product[] = [
     name: "Yogurt",
     description: "Yogurt bianco naturale, 150g.",
     price: 1.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/yogurt.jpg",
     machineIds: [3],
   },
   {
@@ -229,7 +229,7 @@ const products: Product[] = [
     name: "Frutta Fresca",
     description: "Macedonia di frutta fresca, 200g.",
     price: 3.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/fruit.jpg",
     machineIds: [3],
   },
   {
@@ -237,7 +237,7 @@ const products: Product[] = [
     name: "Tramezzino Vegetariano",
     description: "Tramezzino con verdure grigliate e hummus.",
     price: 3.8,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/sandwich.jpg",
     machineIds: [3],
   },
   {
@@ -245,7 +245,7 @@ const products: Product[] = [
     name: "Pasta al Pomodoro",
     description: "Pasta fredda al pomodoro e basilico, 250g.",
     price: 4.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/salad.jpg",
     machineIds: [3],
   },
   {
@@ -253,7 +253,7 @@ const products: Product[] = [
     name: "Croissant",
     description: "Croissant fresco.",
     price: 1.2,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/sandwich.jpg",
     machineIds: [3],
   },
   {
@@ -261,7 +261,7 @@ const products: Product[] = [
     name: "Zuppa",
     description: "Zuppa di verdure, 300ml.",
     price: 3.5,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/salad.jpg",
     machineIds: [3],
   },
   {
@@ -269,7 +269,7 @@ const products: Product[] = [
     name: "Panino al Tonno",
     description: "Panino con tonno e insalata.",
     price: 3.2,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/sandwich.jpg",
     machineIds: [3],
   },
   {
@@ -277,7 +277,7 @@ const products: Product[] = [
     name: "Riso con Verdure",
     description: "Insalata di riso con verdure, 200g.",
     price: 4.0,
-    image: "/placeholder.svg?height=400&width=400",
+    image: "/images/products/salad.jpg",
     machineIds: [3],
   },
 ]
@@ -433,22 +433,22 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       {/* Header */}
-      <header className="sticky top-0 z-10 bg-white border-b">
+      <header className="sticky top-0 z-10 bg-white border-b border-gray-200">
         <div className="container mx-auto flex items-center justify-between h-16 px-4">
           <div className="flex items-center space-x-8">
             <Link
               href="/"
-              className="font-bold text-xl bg-gradient-to-r from-blue-600 to-blue-400 text-transparent bg-clip-text"
+              className="font-bold text-xl bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text"
             >
               H24 LANGELLOTTI
             </Link>
             <nav className="hidden md:flex space-x-6">
-              <Link href="/" className="text-sm hover:underline">
+              <Link href="/" className="text-sm hover:underline text-gray-700 hover:text-orange-600">
                 Tutti
               </Link>
               <Link
                 href="/?machine=1"
-                className="text-sm hover:underline"
+                className="text-sm hover:underline text-gray-700 hover:text-orange-600"
                 onClick={(e) => {
                   e.preventDefault()
                   setShowMachineProductsModal(1)
@@ -458,7 +458,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/?machine=2"
-                className="text-sm hover:underline"
+                className="text-sm hover:underline text-gray-700 hover:text-orange-600"
                 onClick={(e) => {
                   e.preventDefault()
                   setShowMachineProductsModal(2)
@@ -468,7 +468,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/?machine=3"
-                className="text-sm hover:underline"
+                className="text-sm hover:underline text-gray-700 hover:text-orange-600"
                 onClick={(e) => {
                   e.preventDefault()
                   setShowMachineProductsModal(3)
@@ -485,7 +485,7 @@ export default function Home() {
               <Input
                 type="search"
                 placeholder="Cerca prodotti..."
-                className="w-full pl-10 pr-4 py-2 rounded-full border"
+                className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:border-orange-500 focus:ring-orange-500"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
@@ -508,14 +508,14 @@ export default function Home() {
                             src={product.image || "/placeholder.svg"}
                             alt={product.name}
                             fill
-                            className="object-contain"
+                            className="object-cover rounded"
                           />
                         </div>
                         <div className="flex-1">
                           <p className="font-medium">{product.name}</p>
                           <p className="text-sm text-gray-500 truncate">{product.description}</p>
                         </div>
-                        <span className="text-primary font-semibold ml-2">€{product.price.toFixed(2)}</span>
+                        <span className="text-orange-600 font-semibold ml-2">€{product.price.toFixed(2)}</span>
                       </div>
                     ))
                   ) : (
@@ -532,31 +532,33 @@ export default function Home() {
         {/* Featured Vending Machine */}
         <section className="mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="p-8 rounded-lg shadow-xl">
+            <div className="p-8 rounded-lg shadow-xl bg-gradient-to-br from-gray-50 to-gray-100">
               <Image
-                src="/placeholder.svg?height=800&width=600&text=Locale+H24"
+                src="/images/store-front.jpg"
                 alt="Locale H24 Langellotti"
                 width={600}
                 height={800}
-                className="object-contain mx-auto"
+                className="object-cover mx-auto rounded-lg"
               />
             </div>
             <div className="space-y-6">
-              <h1 className="text-4xl font-bold text-primary">H24 Langellotti</h1>
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
+                H24 Langellotti
+              </h1>
               <p className="text-lg text-gray-600">
                 Il nostro locale offre distributori automatici con una vasta gamma di prodotti freschi e di qualità,
                 disponibili 24 ore su 24, 7 giorni su 7.
               </p>
               <div className="flex space-x-4">
                 <Button
-                  className="rounded-full bg-primary hover:bg-primary/90 px-6"
+                  className="rounded-full bg-orange-600 hover:bg-orange-700 text-white px-6"
                   onClick={() => setShowInfoModal(true)}
                 >
                   Scopri di più
                 </Button>
                 <Button
                   variant="outline"
-                  className="rounded-full px-6 border-primary text-primary hover:bg-primary/10"
+                  className="rounded-full px-6 border-orange-600 text-orange-600 hover:bg-orange-50 bg-transparent"
                   onClick={() => setShowContactModal(true)}
                 >
                   Contattaci
@@ -569,7 +571,7 @@ export default function Home() {
         {/* All Vending Machines */}
         <section className="mb-8">
           <h2
-            className="text-2xl font-bold mb-8 cursor-pointer hover:text-primary flex items-center"
+            className="text-2xl font-bold mb-8 cursor-pointer hover:text-orange-600 flex items-center text-gray-900"
             onClick={() => setShowAllProductsModal(true)}
           >
             I Nostri Distributori
@@ -578,23 +580,18 @@ export default function Home() {
             {vendingMachines.map((machine) => (
               <div
                 key={machine.id}
-                className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg border-none"
+                className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg border border-gray-200"
                 onClick={() => {
                   setShowMachineProductsModal(machine.id)
                 }}
               >
                 <div className="aspect-[3/4] relative">
-                  <Image
-                    src={machine.image || "/placeholder.svg"}
-                    alt={machine.name}
-                    fill
-                    className="object-contain drop-shadow-xl"
-                  />
+                  <Image src={machine.image || "/placeholder.svg"} alt={machine.name} fill className="object-cover" />
                 </div>
                 <div className="p-4 flex items-center justify-between">
-                  <span className="font-medium">{machine.name}</span>
+                  <span className="font-medium text-gray-900">{machine.name}</span>
                   <Button
-                    className="rounded-full text-xs px-4 py-1 h-auto bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-700 hover:to-blue-500"
+                    className="rounded-full text-xs px-4 py-1 h-auto bg-gradient-to-r from-orange-600 to-orange-500 hover:from-orange-700 hover:to-orange-600 text-white"
                     onClick={(e) => {
                       e.stopPropagation()
                       setShowMachineProductsModal(machine.id)
@@ -611,7 +608,7 @@ export default function Home() {
         {/* Products Continuous Scrolling - Right after distributors */}
         <section className="mb-16 overflow-hidden">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-primary">Tutti i Prodotti</h2>
+            <h2 className="text-2xl font-bold text-orange-600">Tutti i Prodotti</h2>
           </div>
 
           <div
@@ -635,22 +632,17 @@ export default function Home() {
               {[...products, ...products, ...products].map((product, index) => (
                 <div
                   key={`${product.id}-${index}`}
-                  className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg mx-2 shrink-0 w-[180px]"
+                  className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg mx-2 shrink-0 w-[180px] border border-gray-200"
                   onClick={() => {
                     setSelectedProduct(product)
                   }}
                 >
                   <div className="aspect-square relative">
-                    <Image
-                      src={product.image || "/placeholder.svg"}
-                      alt={product.name}
-                      fill
-                      className="object-contain p-4 drop-shadow-md"
-                    />
+                    <Image src={product.image || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
                   </div>
                   <div className="p-3 flex items-center justify-between">
-                    <span className="font-medium text-sm truncate max-w-[100px]">{product.name}</span>
-                    <Button className="rounded-full text-xs px-3 py-0.5 h-auto bg-primary hover:bg-primary/90">
+                    <span className="font-medium text-sm truncate max-w-[100px] text-gray-900">{product.name}</span>
+                    <Button className="rounded-full text-xs px-3 py-0.5 h-auto bg-orange-600 hover:bg-orange-700 text-white">
                       €{product.price.toFixed(2)}
                     </Button>
                   </div>
@@ -665,27 +657,26 @@ export default function Home() {
       <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
-            <DialogTitle className="text-primary">{selectedProduct?.name}</DialogTitle>
+            <DialogTitle className="text-orange-600">{selectedProduct?.name}</DialogTitle>
           </DialogHeader>
           {selectedProduct && (
             <div className="grid gap-6">
-              <div className="aspect-square relative rounded-lg">
+              <div className="aspect-square relative rounded-lg overflow-hidden">
                 <Image
                   src={selectedProduct.image || "/placeholder.svg"}
                   alt={selectedProduct.name}
                   fill
-                  className="object-contain p-4 drop-shadow-xl"
+                  className="object-cover"
                 />
               </div>
               <DialogDescription>{selectedProduct.description}</DialogDescription>
               <div className="flex justify-between items-center">
-                <span className="font-bold text-xl text-primary">€{selectedProduct.price.toFixed(2)}</span>
+                <span className="font-bold text-xl text-orange-600">€{selectedProduct.price.toFixed(2)}</span>
                 <div className="text-sm text-gray-500">
                   Disponibile in:{" "}
                   {selectedProduct.machineIds.map((id) => vendingMachines.find((m) => m.id === id)?.name).join(", ")}
                 </div>
               </div>
-              <Button className="w-full rounded-full bg-primary hover:bg-primary/90">Acquista</Button>
             </div>
           )}
         </DialogContent>
@@ -695,33 +686,28 @@ export default function Home() {
       <Dialog open={showAllProductsModal} onOpenChange={setShowAllProductsModal}>
         <DialogContent className="sm:max-w-4xl">
           <DialogHeader>
-            <DialogTitle className="text-primary">Tutti i Prodotti</DialogTitle>
+            <DialogTitle className="text-orange-600">Tutti i Prodotti</DialogTitle>
           </DialogHeader>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {products.map((product) => (
               <div
                 key={product.id}
-                className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg"
+                className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg border border-gray-200"
                 onClick={() => {
                   setSelectedProduct(product)
                   setShowAllProductsModal(false)
                 }}
               >
                 <div className="aspect-square relative">
-                  <Image
-                    src={product.image || "/placeholder.svg"}
-                    alt={product.name}
-                    fill
-                    className="object-contain p-4 drop-shadow-md"
-                  />
+                  <Image src={product.image || "/placeholder.svg"} alt={product.name} fill className="object-cover" />
                 </div>
                 <div className="p-3">
-                  <h3 className="font-medium text-sm truncate">{product.name}</h3>
+                  <h3 className="font-medium text-sm truncate text-gray-900">{product.name}</h3>
                   <div className="flex items-center justify-between mt-2">
                     <span className="text-gray-500 text-xs">
                       {vendingMachines.find((m) => product.machineIds.includes(m.id))?.name}
                     </span>
-                    <span className="font-bold text-primary">€{product.price.toFixed(2)}</span>
+                    <span className="font-bold text-orange-600">€{product.price.toFixed(2)}</span>
                   </div>
                 </div>
               </div>
@@ -734,14 +720,14 @@ export default function Home() {
       {showMachineProductsModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
           <div className="bg-white rounded-lg w-full max-w-4xl max-h-[90vh] overflow-hidden flex flex-col">
-            <div className="p-4 border-b flex items-center justify-between bg-primary/5">
+            <div className="p-4 border-b flex items-center justify-between bg-orange-50">
               <div className="w-8"></div> {/* Spacer for centering */}
-              <h2 className="text-xl font-bold text-center text-primary">
+              <h2 className="text-xl font-bold text-center text-orange-600">
                 {vendingMachines.find((m) => m.id === showMachineProductsModal)?.name}
               </h2>
               <button
                 onClick={() => setShowMachineProductsModal(null)}
-                className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-primary/10"
+                className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-orange-100"
               >
                 <X className="h-5 w-5" />
               </button>
@@ -754,7 +740,7 @@ export default function Home() {
                   .map((product) => (
                     <div
                       key={product.id}
-                      className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg"
+                      className="bg-white rounded-lg overflow-hidden cursor-pointer transition-all hover:shadow-lg border border-gray-200"
                       onClick={() => {
                         setSelectedProduct(product)
                         setShowMachineProductsModal(null)
@@ -765,16 +751,16 @@ export default function Home() {
                           src={product.image || "/placeholder.svg"}
                           alt={product.name}
                           fill
-                          className="object-contain p-4 drop-shadow-md"
+                          className="object-cover"
                         />
                       </div>
                       <div className="p-3">
-                        <h3 className="font-medium text-sm truncate">{product.name}</h3>
+                        <h3 className="font-medium text-sm truncate text-gray-900">{product.name}</h3>
                         <div className="flex items-center justify-between mt-2">
                           <span className="text-gray-500 text-xs truncate max-w-[80px]">
                             {product.description.substring(0, 20)}...
                           </span>
-                          <span className="font-bold text-primary">€{product.price.toFixed(2)}</span>
+                          <span className="font-bold text-orange-600">€{product.price.toFixed(2)}</span>
                         </div>
                       </div>
                     </div>
@@ -789,45 +775,45 @@ export default function Home() {
       <Dialog open={showInfoModal} onOpenChange={setShowInfoModal}>
         <DialogContent className="sm:max-w-lg">
           <DialogHeader>
-            <DialogTitle className="text-primary text-2xl">Informazioni su H24 Langellotti</DialogTitle>
+            <DialogTitle className="text-orange-600 text-2xl">Informazioni su H24 Langellotti</DialogTitle>
           </DialogHeader>
           <div className="space-y-4 mt-4">
             <div className="flex items-start space-x-3">
-              <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <MapPin className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-medium">Posizione</h3>
+                <h3 className="font-medium text-gray-900">Posizione</h3>
                 <p className="text-gray-600">Via Roma 123, 00100 Roma, Italia</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <Clock className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <Clock className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-medium">Orari</h3>
+                <h3 className="font-medium text-gray-900">Orari</h3>
                 <p className="text-gray-600">Aperto 24 ore su 24, 7 giorni su 7</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <div className="h-5 w-5 flex items-center justify-center text-primary shrink-0 mt-0.5">🚗</div>
+              <div className="h-5 w-5 flex items-center justify-center text-orange-600 shrink-0 mt-0.5">🚗</div>
               <div>
-                <h3 className="font-medium">Parcheggio</h3>
+                <h3 className="font-medium text-gray-900">Parcheggio</h3>
                 <p className="text-gray-600">Ampio parcheggio gratuito disponibile</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <div className="h-5 w-5 flex items-center justify-center text-primary shrink-0 mt-0.5">🔒</div>
+              <div className="h-5 w-5 flex items-center justify-center text-orange-600 shrink-0 mt-0.5">🔒</div>
               <div>
-                <h3 className="font-medium">Sicurezza</h3>
+                <h3 className="font-medium text-gray-900">Sicurezza</h3>
                 <p className="text-gray-600">Area videosorvegliata 24 ore su 24</p>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <div className="h-5 w-5 flex items-center justify-center text-primary shrink-0 mt-0.5">♿</div>
+              <div className="h-5 w-5 flex items-center justify-center text-orange-600 shrink-0 mt-0.5">♿</div>
               <div>
-                <h3 className="font-medium">Accessibilità</h3>
+                <h3 className="font-medium text-gray-900">Accessibilità</h3>
                 <p className="text-gray-600">Struttura completamente accessibile</p>
               </div>
             </div>
@@ -839,54 +825,54 @@ export default function Home() {
       <Dialog open={showContactModal} onOpenChange={setShowContactModal}>
         <DialogContent className="sm:max-w-lg">
           <DialogHeader>
-            <DialogTitle className="text-primary text-2xl">Contattaci</DialogTitle>
+            <DialogTitle className="text-orange-600 text-2xl">Contattaci</DialogTitle>
           </DialogHeader>
           <div className="space-y-4 mt-4">
             <div className="flex items-start space-x-3">
-              <Phone className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <Phone className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-medium">Telefono</h3>
-                <a href="tel:+390123456789" className="text-blue-600 hover:underline">
+                <h3 className="font-medium text-gray-900">Telefono</h3>
+                <a href="tel:+390123456789" className="text-orange-600 hover:underline">
                   +39 01 2345 6789
                 </a>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <Mail className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <Mail className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-medium">Email</h3>
-                <a href="mailto:info@h24langellotti.it" className="text-blue-600 hover:underline">
+                <h3 className="font-medium text-gray-900">Email</h3>
+                <a href="mailto:info@h24langellotti.it" className="text-orange-600 hover:underline">
                   info@h24langellotti.it
                 </a>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <div className="h-5 w-5 flex items-center justify-center text-primary shrink-0 mt-0.5">📱</div>
+              <div className="h-5 w-5 flex items-center justify-center text-orange-600 shrink-0 mt-0.5">📱</div>
               <div>
-                <h3 className="font-medium">WhatsApp</h3>
-                <a href="https://wa.me/390123456789" className="text-blue-600 hover:underline">
+                <h3 className="font-medium text-gray-900">WhatsApp</h3>
+                <a href="https://wa.me/390123456789" className="text-orange-600 hover:underline">
                   +39 01 2345 6789
                 </a>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <Instagram className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <Instagram className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-medium">Instagram</h3>
-                <a href="https://instagram.com/h24langellotti" className="text-blue-600 hover:underline">
+                <h3 className="font-medium text-gray-900">Instagram</h3>
+                <a href="https://instagram.com/h24langellotti" className="text-orange-600 hover:underline">
                   @h24langellotti
                 </a>
               </div>
             </div>
 
             <div className="flex items-start space-x-3">
-              <Facebook className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+              <Facebook className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h3 className="font-medium">Facebook</h3>
-                <a href="https://facebook.com/h24langellotti" className="text-blue-600 hover:underline">
+                <h3 className="font-medium text-gray-900">Facebook</h3>
+                <a href="https://facebook.com/h24langellotti" className="text-orange-600 hover:underline">
                   H24 Langellotti
                 </a>
               </div>

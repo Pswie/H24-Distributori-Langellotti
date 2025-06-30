@@ -53,6 +53,18 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        orange: {
+          50: "#fff7ed",
+          100: "#ffedd5",
+          200: "#fed7aa",
+          300: "#fdba74",
+          400: "#fb923c",
+          500: "#f97316",
+          600: "#ea580c",
+          700: "#c2410c",
+          800: "#9a3412",
+          900: "#7c2d12",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -70,18 +82,18 @@ const config = {
         },
         "infinite-scroll": {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(-180px * 30))" }, // Width of product card * number of products
+          to: { transform: "translateX(calc(-180px * 30))" },
         },
         "infinite-scroll-slow": {
           from: { transform: "translateX(0)" },
-          to: { transform: "translateX(calc(-180px * 30))" }, // Width of product card * number of products
+          to: { transform: "translateX(calc(-180px * 30))" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "infinite-scroll": "infinite-scroll 60s linear infinite",
-        "infinite-scroll-slow": "infinite-scroll-slow 120s linear infinite", // Versione più lenta (120s invece di 60s)
+        "infinite-scroll-slow": "infinite-scroll-slow 120s linear infinite",
       },
     },
   },
