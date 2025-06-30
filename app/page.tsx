@@ -653,6 +653,103 @@ export default function Home() {
         </section>
       </main>
 
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {/* Logo e Descrizione */}
+            <div className="md:col-span-2">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-300 text-transparent bg-clip-text mb-4">
+                H24 LANGELLOTTI
+              </h3>
+              <p className="text-gray-300 mb-4">
+                Distributori automatici con prodotti freschi e di qualità, disponibili 24 ore su 24, 7 giorni su 7.
+              </p>
+              <div className="flex items-center space-x-3 text-gray-300">
+                <MapPin className="h-4 w-4 text-orange-400" />
+                <span>Via Roma 123, 00100 Roma, Italia</span>
+              </div>
+            </div>
+
+            {/* Contatti */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4 text-orange-400">Contatti</h4>
+              <div className="space-y-3">
+                <div className="flex items-center space-x-3">
+                  <Phone className="h-4 w-4 text-orange-400" />
+                  <a href="tel:+390123456789" className="text-gray-300 hover:text-orange-400 transition-colors">
+                    +39 01 2345 6789
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Mail className="h-4 w-4 text-orange-400" />
+                  <a
+                    href="mailto:info@h24langellotti.it"
+                    className="text-gray-300 hover:text-orange-400 transition-colors"
+                  >
+                    info@h24langellotti.it
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="h-4 w-4 flex items-center justify-center text-orange-400">📱</div>
+                  <a
+                    href="https://wa.me/390123456789"
+                    className="text-gray-300 hover:text-orange-400 transition-colors"
+                  >
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Social e Info */}
+            <div>
+              <h4 className="text-lg font-semibold mb-4 text-orange-400">Seguici</h4>
+              <div className="space-y-3">
+                <div className="flex items-center space-x-3">
+                  <Instagram className="h-4 w-4 text-orange-400" />
+                  <a
+                    href="https://instagram.com/h24langellotti"
+                    className="text-gray-300 hover:text-orange-400 transition-colors"
+                  >
+                    @h24langellotti
+                  </a>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Facebook className="h-4 w-4 text-orange-400" />
+                  <a
+                    href="https://facebook.com/h24langellotti"
+                    className="text-gray-300 hover:text-orange-400 transition-colors"
+                  >
+                    H24 Langellotti
+                  </a>
+                </div>
+              </div>
+
+              <div className="mt-6">
+                <h5 className="text-sm font-semibold mb-2 text-orange-400">Orari</h5>
+                <div className="flex items-center space-x-2">
+                  <Clock className="h-4 w-4 text-orange-400" />
+                  <span className="text-gray-300 text-sm">24/7 - Sempre aperto</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="border-t border-gray-700 mt-8 pt-6">
+            <div className="flex flex-col md:flex-row justify-between items-center">
+              <div className="text-gray-400 text-sm mb-4 md:mb-0">
+                © 2024 H24 Langellotti. Tutti i diritti riservati.
+              </div>
+              <div className="text-gray-400 text-sm">
+                Powered by <span className="text-orange-400 font-semibold">Pasquale Langellotti</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
       {/* Product Detail Modal */}
       <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
         <DialogContent className="sm:max-w-md">
