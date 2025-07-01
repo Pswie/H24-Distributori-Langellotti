@@ -29,9 +29,9 @@ type Product = {
 
 // Sample data
 const vendingMachines: VendingMachine[] = [
-  { id: 1, name: "Distributore Bevande", image: "/images/sandenvendo-gsnack-budget.png" },
-  { id: 2, name: "Distributore Snack", image: "/images/sandenvendo-gsnack-standard.png" },
-  { id: 3, name: "Distributore Pasti", image: "/images/gsnack-outdoor-touch.png" },
+  { id: 1, name: "Distributore Snack", image: "/images/sandenvendo-gsnack-budget.png" },
+  { id: 2, name: "Distributore Bevande - Snack", image: "/images/sandenvendo-gsnack-standard.png" },
+  { id: 3, name: "Distributore Bevande", image: "/images/gsnack-outdoor-touch.png" },
 ]
 
 const products: Product[] = [
