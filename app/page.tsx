@@ -534,7 +534,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="p-8 rounded-lg shadow-xl bg-gradient-to-br from-gray-50 to-gray-100">
               <Image
-                src="/images/store-front.jpg"
+                src="/images/store.jpg"
                 alt="Locale H24 Langellotti"
                 width={600}
                 height={800}
