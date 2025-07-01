@@ -546,8 +546,10 @@ export default function Home() {
                 H24 Langellotti
               </h1>
               <p className="text-lg text-gray-600">
-                Il nostro locale offre distributori automatici con una vasta gamma di prodotti freschi e di qualità,
-                disponibili 24 ore su 24, 7 giorni su 7.
+                H24 Langellotti è il punto di ristoro automatico disponibili 24 ore su 24, 7 giorni su 7, pensato per chi cerca una pausa veloce e comoda a qualsiasi ora.
+               Offriamo un servizio pratico e affidabile con distributori automatici attivi 24 ore su 24. Snack dolci e salati, bibite fresche, birre e bevande energetiche:
+                un assortimento costantemente aggiornato per soddisfare ogni esigenza, dal semplice spuntino notturno alla pausa di metà giornata. 
+                Il locale è videosorvegliato, ben illuminato e facilmente accessibile, per garantirti sempre uno spazio sicuro e accogliente.
               </p>
               <div className="flex space-x-4">
                 <Button
@@ -667,7 +669,7 @@ export default function Home() {
               </p>
               <div className="flex items-center space-x-3 text-gray-300">
                 <MapPin className="h-4 w-4 text-orange-400" />
-                <span>Via Roma 123, 00100 Roma, Italia</span>
+                <span>Via Bonifica 161, 84018 Scafati, Italia</span>
               </div>
             </div>
 
@@ -740,7 +742,7 @@ export default function Home() {
           <div className="border-t border-gray-700 mt-8 pt-6">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-gray-400 text-sm mb-4 md:mb-0">
-                © 2024 H24 Langellotti. Tutti i diritti riservati.
+                © 2025 H24 Langellotti. Tutti i diritti riservati.
               </div>
               <div className="text-gray-400 text-sm">
                 Powered by <span className="text-orange-400 font-semibold">Pasquale Langellotti</span>
@@ -879,7 +881,7 @@ export default function Home() {
               <MapPin className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-medium text-gray-900">Posizione</h3>
-                <p className="text-gray-600">Via Roma 123, 00100 Roma, Italia</p>
+                <p className="text-gray-600">Via Bonifica 161, 84018 Scafati, Italia</p>
               </div>
             </div>
 
