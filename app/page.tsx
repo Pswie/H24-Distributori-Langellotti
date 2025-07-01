@@ -677,8 +677,8 @@ export default function Home() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <Phone className="h-4 w-4 text-orange-400" />
-                  <a href="tel:+390123456789" className="text-gray-300 hover:text-orange-400 transition-colors">
-                    +39 01 2345 6789
+                  <a href="tel:+393349427267" className="text-gray-300 hover:text-orange-400 transition-colors">
+                    +39 3349427267
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -687,13 +687,13 @@ export default function Home() {
                     href="mailto:info@h24langellotti.it"
                     className="text-gray-300 hover:text-orange-400 transition-colors"
                   >
-                    info@h24langellotti.it
+                    infoh24langellotti@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="h-4 w-4 flex items-center justify-center text-orange-400">📱</div>
                   <a
-                    href="https://wa.me/390123456789"
+                    href="https://wa.me/393349427267"
                     className="text-gray-300 hover:text-orange-400 transition-colors"
                   >
                     WhatsApp
@@ -907,13 +907,6 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex items-start space-x-3">
-              <div className="h-5 w-5 flex items-center justify-center text-orange-600 shrink-0 mt-0.5">♿</div>
-              <div>
-                <h3 className="font-medium text-gray-900">Accessibilità</h3>
-                <p className="text-gray-600">Struttura completamente accessibile</p>
-              </div>
-            </div>
           </div>
         </DialogContent>
       </Dialog>
@@ -929,8 +922,8 @@ export default function Home() {
               <Phone className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-medium text-gray-900">Telefono</h3>
-                <a href="tel:+390123456789" className="text-orange-600 hover:underline">
-                  +39 01 2345 6789
+                <a href="tel:+39393349427267" className="text-orange-600 hover:underline">
+                  +39 393349427267
                 </a>
               </div>
             </div>
@@ -939,8 +932,8 @@ export default function Home() {
               <Mail className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-medium text-gray-900">Email</h3>
-                <a href="mailto:info@h24langellotti.it" className="text-orange-600 hover:underline">
-                  info@h24langellotti.it
+                <a href="mailto:infoh24langellotti@gmail.com" className="text-orange-600 hover:underline">
+                  infoh24langellotti@gmail.com
                 </a>
               </div>
             </div>
@@ -949,8 +942,8 @@ export default function Home() {
               <div className="h-5 w-5 flex items-center justify-center text-orange-600 shrink-0 mt-0.5">📱</div>
               <div>
                 <h3 className="font-medium text-gray-900">WhatsApp</h3>
-                <a href="https://wa.me/390123456789" className="text-orange-600 hover:underline">
-                  +39 01 2345 6789
+                <a href="https://wa.me/393349427267" className="text-orange-600 hover:underline">
+                  +39 3349427267
                 </a>
               </div>
             </div>
